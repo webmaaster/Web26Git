@@ -1,0 +1,86 @@
+body {
+  border: 35px solid green;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: red;
+}
+
+#secOne {
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom:10px;
+  margin-left: 50px;
+  padding-top: 40px;
+  padding-right: 45px;
+  padding-bottom: 45px;
+  padding-left: 45px;
+  font-size: 20px;
+  font-weigth: lighter;
+  background-color: skyblue;
+}
+
+#secOne:hover {
+  background-color: green;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+#secTwo {
+  color: navyblue;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-top: 35px; 
+  padding-right: 45px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  background-color: lightgrey;
+}
+#secTwo:hover {
+  background-color: lightgreen;
+  color: black;
+}
+#captions {
+  text-transform: uppercase;
+}
+
+#secThree #caps:hover {
+  text-transform: capitalize;
+  color: yellowgreen;
+}
+
+.lastSec:hover {
+    color: green;
+}
+
+#secThree {
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  color: gold;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.pictures {
+  margin-top: 25px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eachPicture:hover {
+  border: 10px dotted red;
+}
+
+
